@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(230, 230, 240);
+}
+
+h1{
+    text-align: center;
+    background-color: #a1ebf8;
+}
+p{
+    background-color: pink;
+    color: black;
+    text-align: center;
+}
+
+header{
+    background-position: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+.container-sm {
+  display: grid;
+  position: absolute;
+  left: 30%;
+
+}
+  ul a{
+  color: white;
+  text-decoration: none;
+  }
+  li{
+  display: inline-block;
+  height: 22px;
+  width: 100px;
+  color: white;
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  li:hover{
+  background-color: pink;
+  border-style: none;
+  }
+  form{
+    background-color: pink;
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+  }
+  input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  margin: 15px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px grey;
+  }
+  textarea{
+  height: 200px;
+  background-color: lightblue;
+  padding: 5px 4px;
+  }
+  footer{
+    text-align: center;
+    background-color: pink;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
